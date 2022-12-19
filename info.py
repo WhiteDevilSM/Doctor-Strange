@@ -53,7 +53,7 @@ NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/329bd4dae3fb88fa8aa30.
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b66f3a65ce68e11e621cf.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e433616e82cba2bd8b9ac.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/ede38b7090806dbbbde4c.mp4")
 
 
@@ -87,14 +87,14 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 𝐶𝑟𝑎𝑧𝑦 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 💖')
+S_GROUP = environ.get('S_GROUP',"https://t.me/SM_Movies_Group")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/sm_movies_1")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/SM_Movies_Request")
+MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 SM 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 💖')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'czdbotz_support')
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/SM_Support_1')
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
